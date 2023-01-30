@@ -1,0 +1,73 @@
+/* The sidenav */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: purple;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* 
+.main {
+    margin-left: 200px;
+} */
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.w3container {
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 100%;
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 75%;
+
+}
+
+
+.box {
+    width: 40%;
+    height: 500px;
+    background: white;
+    margin: 20px;
+
+}
+
+.box1 {
+    border
+    border-color: solid black;
+    border-collapse: collapse;
+    margin-left: 600px;
+    width: 90%;
+    height: 300px;
+    background: white;
+    margin: 20px;
+
+
+}
+
+.box2 {
+    border: 10px;
+    margin-left: 500px;
+    color: black;
+
+}
