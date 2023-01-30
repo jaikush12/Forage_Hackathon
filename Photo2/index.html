@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr {
+            margin-left: 250px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            text-align: center;
+            width: 150px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <br>
+        <a href="#">Services</a>
+        <br>
+        <a href="#">Clients</a>
+        <br>
+        <a href="#">Contact</a>
+    </div>
+    <table>
+        <tr rowspan="10">
+            <th>Buyers info</th>
+        </tr>
+        <tr>
+            <th colspan="1">#Account address</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>City</th>
+            <th>Aadhar No</th>
+            <th>Pan No</th>
+            <th>Aadhar card document</th>
+            <th>Verification status</th>
+            <th>Verify buyer</th>
+            <th>Reject buyer</th>
+        </tr>
+        <tr>
+            <td>#Account address</td>
+            <td>buyer</td>
+            <td>23</td>
+            <td>vvahuja2000@gmail.com</td>
+            <td>af</td>
+            <td>AADHAR123456</td>
+            <td>1234567890</td>
+            <td>Click Here</td>
+            <td>false</td>
+            <td> <button class="button" style="color: green;">Verify</td>
+            <td> <button class="button" style="color: red">Reject</td>
+        </tr>
+    </table>
+</body>
+
+</html>
