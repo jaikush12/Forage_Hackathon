@@ -2,6 +2,46 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .box {
+            position: relative;
+        }
+
+        .first-txt {
+            position: absolute;
+            top: 50px;
+            left: 150px;
+            color: white;
+        }
+
+        .second-txt {
+            position: absolute;
+            top: 80px;
+            left: 220px;
+            color: white;
+        }
+
+        .second-txt1 {
+            position: absolute;
+            top: 80px;
+            left: 290px;
+            color: white;
+        }
+
+        table,
+        tr {
+            margin-left: 250px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            text-align: center;
+            width: 150px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -19,33 +59,63 @@
         </div>
         <div class="w3container">
             <div class="box">
-                <img src="land1.jpg" width="572" height="250" />
-                <h1>23 Sq.m.</h1>
-                <p style="color: red;">akola,mah</p>
-                <h2>View Verified Land <p>Document</p>
+                <img src="green.jpg" width="540" height="200" />
+                <h1 class="first-txt">Total Sellers</h1>
+                <h1 class="second-txt">1</h1>
+
+                <h1>Profile</h1>
+                <button style="background-color: rgb(33, 33, 187); color: white;">View Profile</button>
                 </h2>
 
             </div>
             <div class="box">
-                <img src="land.jpg" width="572" height="250" />
-                <h1>34 Sq.m</h1>
-                <p style="color: red;">erw,cdn</p>
+                <img src="pink.jpg" width="572" height="200" />
+                <h1 class="first-txt">Registered Land Count</h1>
+                <h1 class="second-txt1">1</h1>
+                <h1>Owned lands</h1>
+                <button style="background-color: rgb(33, 33, 187); color: white;">View Your lands</button>
 
             </div>
             <div class="box">
-                <img src="land.jpg" width="572" height="250" />
-                <h1>34 Sq.m</h1>
-                <p style="color: red;">erw,cdn</p>
-            </div>
-        </div>
-        <div class="box1">
-            <div class="box2">
-                <h1>Akshat</h1>
-                <p style="color: black;">erw,cdn</p>
-
+                <img src="brown.png" width="400" height="200" />
+                <h1 class="first-txt">Total Request</h1>
+                <h1 class="second-txt">1</h1>
+                <h1>Make payments for Apporoved land Requests</h1>
+                <button style="background-color: rgb(33, 33, 187); color: white;">Make Payment</button>
             </div>
         </div>
         <span onclick="openNav()">open</span>
+        <table>
+            <tr rowspan="10">
+                <th>Buyers info</th>
+            </tr>
+            <tr>
+                <th colspan="1">#Account address</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>City</th>
+                <th>Aadhar No</th>
+                <th>Pan No</th>
+                <th>Aadhar card document</th>
+                <th>Verification status</th>
+                <th>Verify buyer</th>
+                <th>Reject buyer</th>
+            </tr>
+            <tr>
+                <td>#Account address</td>
+                <td>buyer</td>
+                <td>23</td>
+                <td>vvahuja2000@gmail.com</td>
+                <td>af</td>
+                <td>AADHAR123456</td>
+                <td>1234567890</td>
+                <td>Click Here</td>
+                <td>false</td>
+                <td> <button class="button" style="background-color: green; color: white;">Verify</td>
+                <td> <button class="button" style="background-color: red ; color: white;">Reject</td>
+            </tr>
+        </table>
     </body>
 
 </html>
